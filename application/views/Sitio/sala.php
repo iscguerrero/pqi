@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.5.4, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logosolo-175x175.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logosolo-2-175x175.jpg" type="image/x-icon">
   <meta name="description" content="Web Maker Description">
   <title>Sala</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -40,15 +40,15 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="http://queretaroindependiente.org">
-                        <img src="assets/images/logosolo-175x175.png" alt="Indepediente" title="Partido Querétaro Independiente" style="height: 3.8rem;">
+                        <img src="assets/images/logosolo-2-175x175.jpg" alt="Indepediente" title="Partido Querétaro Independiente" style="height: 3.8rem;">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="#top">Independiente</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
-                    <a class="nav-link link text-primary dropdown-toggle display-4" href="index.html#content5-p" data-toggle="dropdown-submenu" aria-expanded="false">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown open">
+                    <a class="nav-link link text-primary dropdown-toggle display-4" href="index.html#content5-p" data-toggle="dropdown-submenu" aria-expanded="true">
                         Nuestro Partido</a><div class="dropdown-menu"><a class="text-primary dropdown-item display-4" href="index.html#testimonials1-v">Directorio</a><a class="text-primary dropdown-item display-4" href="index.html#features4-q" aria-expanded="false">Pilares Filosóficos</a><a class="text-primary dropdown-item display-4" href="index.html#content5-p" aria-expanded="false">Legado</a><a class="text-primary dropdown-item display-4" href="index.html#content5-p" aria-expanded="false">Documentos básicos</a><a class="text-primary dropdown-item display-4" href="index.html#content5-p" aria-expanded="false">Estrados electrónicos</a></div>
                 </li><li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html#content5-s">Enlaces y Descargas</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="page1.html#content5-12">Transparencia</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="page2.html#content5-14">Sala de Prensa</a></li></ul>
             
@@ -56,7 +56,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.co/f">bootstrap builder</a></section><section class="mbr-section content5 cid-qGLhmBjGeZ mbr-parallax-background" id="content5-14">
+<section class="engine"><a href="https://mobirise.co/f">free bootstrap builder</a></section><section class="mbr-section content5 cid-qGLhmBjGeZ mbr-parallax-background" id="content5-14">
 
     
 

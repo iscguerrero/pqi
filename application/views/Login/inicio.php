@@ -19,21 +19,21 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('<?php echo base_url('assets/images/cacti-1876992_1920.jpg') ?>');">
+		<div class="container-login100" style="background-image: url('<?php echo base_url('assets/images/keyboard-bg-1-1600x1200.jpg') ?>');">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
 					<span class="login100-form-logo">
-						<i class="zmdi zmdi-landscape"></i>
+						<i class="fa fa-sign-in"></i>
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">Acceso</span>
 					<div class="wrap-input100 validate-input" data-validate = "Ingresa usuario">
-						<input class="input100" type="text" name="username" placeholder="Usuario">
+						<input class="input100" type="text" name="cve_usuario" id="cve_usuario" placeholder="Usuario">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Ingresa contraseña">
-						<input class="input100" type="password" name="pass" placeholder="Contraseña">
+						<input class="input100" type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 

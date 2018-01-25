@@ -33,31 +33,4 @@ class gl_cat_usuarios extends CI_Model{
 	private function verify_password_hash($contrasenia, $hash) {
 		return password_verify($contrasenia, $hash);
 	}
-	# Funcion para obtener la lista de usuarios
-	public function obtenerClientes($estatus){
-		$this->db->select('gcu.cve_usuario, nombre, correo, facebook, twitter, instagram, paginaweb, estatus');
-		$this->db->from('gl_cat_usuarios gcu');
-		$this->db->join('vn_detalles_cliente vdc', 'gcu.cve_usuario = vdc.cve_usuario', 'INNER');
-		$this->db->where('cve_perfil', '002');
-		if($estatus == 'A') $this->db->where('estatus', 'A');
-		$query = $this->db->get();
-		return $query->result();
-	}
-	# Metodo para editar la informacion de un cliente
-	public function editarUsuario($cve_usuario, $nombre, $correo){
-		$this->db->set('nombre', $nombre);
-		$this->db->set('correo', $correo);
-		$this->db->set('updated_at', date('Y-m-j H:i:s'));
-		$this->db->where('cve_usuario', $cve_usuario);
-		$this->db->limit(1);
-		$this->db->update('gl_cat_usuarios');
-	}
-	# Metodo para eliminar logicamente un usuario
-	public function suspenderUsuario($cve_usuario, $estatus){
-		$this->db->set('estatus', $estatus);
-		$this->db->set('updated_at', date('Y-m-j H:i:s'));
-		$this->db->where('cve_usuario', $cve_usuario);
-		$this->db->limit(1);
-		$this->db->update('gl_cat_usuarios');
-	}
 }
