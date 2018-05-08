@@ -1,7 +1,7 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class gl_archivos extends Base_Model{
+class Gl_archivos extends Base_Model{
 
 	# Constructor del modelo
 	function construct(){
